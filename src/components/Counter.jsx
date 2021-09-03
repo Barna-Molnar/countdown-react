@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import Box from './Box';
 
@@ -8,12 +8,7 @@ const CounterStyles = styled.div`
   padding: 5rem;
 `;
 
-function Counter() {
-  const [day, setDay] = useState(12);
-  const [hour, setHours] = useState(24);
-  const [minute, setMinute] = useState(60);
-  const [second, setSecond] = useState(60);
-
+function Counter({ day, hour, minute, second }) {
   return (
     <CounterStyles>
       <Box number={day} title="days" />
@@ -24,4 +19,10 @@ function Counter() {
   );
 }
 
+Counter.defaultProps = {
+  day: 10,
+  hour: 10,
+  minute: 10,
+  second: 10,
+};
 export default Counter;
