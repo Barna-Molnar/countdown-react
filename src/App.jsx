@@ -39,9 +39,12 @@ function App() {
       }
     }, 1000);
   };
-  useEffect(() => {
-    startTimer();
-  });
+  // useEffect(() => {
+  //   startTimer();
+  //   return () => {
+  //     clearInterval(interval);
+  //   };
+  // });
   return (
     <div className="App">
       <h1>We're launching soon </h1>
