@@ -4,7 +4,8 @@ import Box from './Box';
 
 const CounterStyles = styled.div`
   display: flex;
-  width: 100%;
+  align-items: center;
+  justify-content: center;
   padding: 5rem;
 `;
 

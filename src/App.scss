@@ -2,8 +2,7 @@
   position: relative;
   height: 100vh;
   width: 100vw;
-  background: url('./images/pattern-hills.svg') bottom no-repeat,
-    url('./images/bg-stars.svg'),
+  background: bottom no-repeat, url('./images/bg-stars.svg'),
     linear-gradient(to top, rgb(41, 29, 51), var(--color-darkBlue));
   // background-color: var(--color-darkBlue);
 
@@ -11,6 +10,7 @@
 
   text-align: center;
   color: var(--color-white);
+  z-index: -1000;
   h1 {
     padding-top: 10rem;
     text-transform: uppercase;

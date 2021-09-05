@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import { keyframes } from 'styled-components';
+// https://codepen.io/shshaw/pen/vKzoLL
 const flipTop = keyframes`
   0% {
     transform: rotateX(0deg);

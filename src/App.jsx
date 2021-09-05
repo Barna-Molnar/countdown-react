@@ -13,6 +13,7 @@ function App() {
 
   const startTimer = () => {
     const countDownDate = new Date(2021, 9, 1).getTime();
+    console.log(countDownDate);
 
     interval = setInterval(() => {
       const now = new Date().getTime();
@@ -45,6 +46,7 @@ function App() {
   //     clearInterval(interval);
   //   };
   // });
+
   return (
     <div className="App">
       <h1>We're launching soon </h1>
