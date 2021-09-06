@@ -18,6 +18,7 @@ const flipTop = keyframes`
   }`;
 
 const BoxStyles = styled.div`
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   width: 10rem;
