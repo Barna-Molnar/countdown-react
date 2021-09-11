@@ -47,7 +47,9 @@ const BoxStyles = styled.div`
     width: 100%;
     height: 1px;
     top: 50%;
-    background-color: black;
+    box-shadow: inset -5px -5px 0px rgba(250, 250, 250, 0.1);
+    /* inset 5px 5px 0px rgba(250, 250, 250, 0.2); */
+    /* background-color: black; */
   }
   .container::after {
     position: absolute;
@@ -59,7 +61,7 @@ const BoxStyles = styled.div`
     top: 0;
 
     /// animation related stuff
-    background-color: rgba(2, 1, 2, 0.1);
+    background-color: rgba(2, 1, 2, 0.2);
     display: block;
 
     transform-style: preserve-3d;
@@ -69,11 +71,11 @@ const BoxStyles = styled.div`
     /// animation
 
     /* animation-name: ${flipTop};
-    animation-duration: 1s;
+    animation-duration: 3s;
 
     animation-iteration-count: infinite; */
-    /* 
-    animation: ${flipTop} 1s cubic-bezier(0.37, 0.01, 0.94, 0.35) infinite;
+
+    /* animation: ${flipTop} 3s cubic-bezier(0.37, 0.01, 0.94, 0.35) infinite;
     animation-fill-mode: both;
     transform-origin: center bottom; */
   }

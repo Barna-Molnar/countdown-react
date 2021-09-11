@@ -14,7 +14,7 @@ const FooterStyles = styled.div`
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 20vh;
+  height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
