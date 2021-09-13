@@ -7,10 +7,7 @@ import { FaInstagram } from 'react-icons/fa';
 import { RiFacebookBoxFill } from 'react-icons/ri';
 
 const FooterStyles = styled.div`
-  /* position: absolute;
-  bottom: 5rem; */
   background-image: url(${hills});
-  background-repeat: no-repeat;
   position: absolute;
   bottom: 0;
   width: 100%;
