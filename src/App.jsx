@@ -40,12 +40,12 @@ function App() {
       }
     }, 1000);
   };
-  // useEffect(() => {
-  //   startTimer();
-  //   return () => {
-  //     clearInterval(interval);
-  //   };
-  // });
+  useEffect(() => {
+    startTimer();
+    return () => {
+      clearInterval(interval);
+    };
+  });
 
   return (
     <div className="App">

@@ -40,9 +40,6 @@ function Footer() {
         <RiFacebookBoxFill />
         <ImPinterest />
         <FaInstagram />
-        {/* <img src={fb} alt="facebook-icon" />
-        <img src={pinterest} alt="pinterest-icon" />
-        <img src={insta} alt="instagram-icon" /> */}
       </div>
     </FooterStyles>
   );
